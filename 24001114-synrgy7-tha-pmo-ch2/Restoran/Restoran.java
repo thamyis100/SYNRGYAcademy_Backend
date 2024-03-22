@@ -1,4 +1,4 @@
-package Ch2.Challange; // Noncompliant
+package Restoran; // Noncompliant
 
 import lombok.Getter;
 
@@ -69,7 +69,7 @@ public class Restoran {
             }
 
             // logika pilihan
-            qty(choice);
+            qty(choice, scanner);
 
         } while (choice != 0);
         thanks();
@@ -162,9 +162,7 @@ public class Restoran {
         }
     }
 
-    private static void qty(int choice) {
-        // buat variabel
-        Scanner scanner = new Scanner(System.in);
+    private static void qty(int choice, Scanner scanner) {
 
         if (choice >= 1 && choice <= menu.size()) {
             int qty = 0;
