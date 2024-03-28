@@ -149,6 +149,7 @@ public class Restoran {
                         ==========================""");
 
                 confirmLeave();
+                orders.clear();
                 break;
             case 2:
                 // do nothing to go back
