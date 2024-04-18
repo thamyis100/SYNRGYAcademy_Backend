@@ -68,7 +68,7 @@ public class Restoran {
     }
 
     //function
-    private static void showMenu() {
+    static void showMenu() {
         AtomicInteger index = new AtomicInteger(1); // Start index from 1
         menu.forEach((key, value) -> {
             if (value != 0) {
@@ -113,7 +113,8 @@ public class Restoran {
                 ==========================
                 """);
 
-        orders.forEach(order -> {
+        orders.stream()
+                .forEach(order -> {
             print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty());
             total.addAndGet(order.getQty());
         });
@@ -147,7 +148,8 @@ public class Restoran {
                 Dibawah ini adalah pesanan anda
                 """);
 
-                orders.forEach(order ->
+                orders.stream()
+                        .forEach(order ->
                         print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty())
                 );
 
@@ -177,7 +179,7 @@ public class Restoran {
         }
     }
 
-    private static void qty(int choice, Scanner scanner) {
+    static void qty(int choice, Scanner scanner) {
         if (choice >= 1 && choice <= menu.size()) {
             String chosenItem = getMenuByKeyIndex(choice);
             if (menu.get(chosenItem) == 0) {
@@ -249,7 +251,8 @@ public class Restoran {
         receiptContent.append("Terima kasih sudah memesan di BinarFud\n\n");
         receiptContent.append("Dibawah ini adalah pesanan anda\n\n");
 
-        orders.forEach(order -> {
+        orders.stream()
+                .forEach(order -> {
             receiptContent.append(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty());
             total.addAndGet(order.getQty());
         });
