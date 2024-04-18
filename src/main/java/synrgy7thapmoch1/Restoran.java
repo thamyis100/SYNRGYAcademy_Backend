@@ -77,7 +77,7 @@ public class Restoran {
         });
     }
 
-    private static String getMenuByKeyIndex(int choice) {
+    static String getMenuByKeyIndex(int choice) {
         return menu.keySet().stream()
                 .skip(choice - 1)
                 .findFirst()
@@ -96,7 +96,7 @@ public class Restoran {
         print("Total\t\t\t" + total);
     }
 
-    private static class ZeroValueHandler {
+    static class ZeroValueHandler {
         public void handleZeroValue(String chosenItem) {
             print("Menu " + chosenItem + " is not available.");
         }
@@ -223,7 +223,7 @@ public class Restoran {
     }
 
 
-    private static void confirmLeave() {
+    static void confirmLeave() {
         print("\n==========================");
         print("Mohon masukkan input");
         print("pillihan anda");
@@ -233,10 +233,19 @@ public class Restoran {
         print("=> ");
         //input
         Scanner scanner = new Scanner(System.in);
-        String choice3 = scanner.next();
-        if (choice3.equals("n")) {
-            thanks();
-            System.exit(0);
+        String choice3;
+        boolean validInput = false;
+
+        while (!validInput) {
+            choice3 = scanner.next().toLowerCase(); // Convert input to lowercase
+            if (choice3.equals("n")) {
+                thanks();
+                System.exit(0);
+            } else if (choice3.equals("y")) {
+                validInput = true;
+            } else {
+                print("Masukkan pilihan yang valid (y/n): ");
+            }
         }
     }
 
