@@ -104,8 +104,6 @@ public class Restoran {
 
     // page
     public static void confirmOrder(List<Order> orders) {
-        //variabel
-        AtomicInteger total = new AtomicInteger();
 
         print("""
                 ==========================
@@ -113,14 +111,16 @@ public class Restoran {
                 ==========================
                 """);
 
+        // Calculate total quantity using functional style
+        int total = orders.stream()
+                .mapToInt(Order::getQty) // Extract quantities
+                .sum(); // Sum all quantities
+
         orders.stream()
-                .forEach(order -> {
-            print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty());
-            total.addAndGet(order.getQty());
-        });
+                .forEach(order -> print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty()));
 
         print("------------------------------ +");
-        total(total.get());
+        total(total);
         print("""
                 
                 1. Konfirmasi dan Bayar
@@ -154,7 +154,7 @@ public class Restoran {
                 );
 
                 print("------------------------------ +");
-                total(total.get());
+                total(total);
                 print("""
                         
                         Pembayaran: BinarCash
@@ -250,7 +250,7 @@ public class Restoran {
     }
 
     //receipt
-    private static void generatePaymentReceipt(List<Order> orders, AtomicInteger total) {
+    private static void generatePaymentReceipt(List<Order> orders, int total) {
         // Prepare the receipt content using StringBuilder
         StringBuilder receiptContent = new StringBuilder();
         String garis = "==========================\n";
@@ -261,10 +261,7 @@ public class Restoran {
         receiptContent.append("Dibawah ini adalah pesanan anda\n\n");
 
         orders.stream()
-                .forEach(order -> {
-            receiptContent.append(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty());
-            total.addAndGet(order.getQty());
-        });
+                .forEach(order -> receiptContent.append(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty()));
 
         receiptContent.append("------------------------------ +\n");
         receiptContent.append("Total\t\t\t").append(total).append("\n\n");

@@ -60,6 +60,13 @@ public class RestoranTest {
         assertTrue(outContent.toString().contains("3. Nasi + Ayam\t\t| 18000"));
         assertTrue(outContent.toString().contains("4. Es Teh Manis\t\t| 3000"));
         assertTrue(outContent.toString().contains("5. Es Jeruk\t\t| 5000"));
+//        String expected = "1. Nasi Goreng\t\t| 15000\n" +
+//                "2. Mie Goreng\t\t| 13000\n" +
+//                "3. Nasi + Ayam\t\t| 18000\n" +
+//                "4. Es Teh Manis\t\t| 3000\n" +
+//                "5. Es Jeruk\t\t| 5000";
+//        String actual = outContent.toString().trim();  // Trim any leading/trailing whitespace
+//        assertEquals(expected, actual);
 //        assertTrue(outContent.toString().contains("Menu A"));
 //        assertTrue(outContent.toString().contains("Menu B"));
     }
@@ -105,6 +112,23 @@ public class RestoranTest {
             assertTrue(outContent.toString().contains("Menu " + chosenItem + " is not available."));
             outContent.reset(); // Reset the output stream for the next iteration
         });
+    }
+
+    @Test
+    public void testThanks() {
+        Restoran.thanks();
+        String expected = "Terima kasih telah menggunakan aplikasi.";
+        String actual = outContent.toString().trim();  // Trim any leading/trailing whitespace
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testTotal() {
+        Integer total = 100;
+        Restoran.total(total);
+        String expected = "Total\t\t\t" + total;
+        String actual = outContent.toString().trim();  // Trim any leading/trailing whitespace
+        assertEquals(expected, actual);
     }
 
 //    @Test
@@ -188,22 +212,8 @@ public class RestoranTest {
         assertTrue(out.toString().contains("=> "));
     }
 
-    @Test
-    public void testThanks() {
-        Restoran.thanks();
-        String expected = "Terima kasih telah menggunakan aplikasi.";
-        String actual = outContent.toString().trim();  // Trim any leading/trailing whitespace
-        assertEquals(expected, actual);
-    }
+    @test
 
-    @Test
-    public void testTotal() {
-        Integer total = 100;
-        Restoran.total(total);
-        String expected = "Total\t\t\t" + total;
-        String actual = outContent.toString().trim();  // Trim any leading/trailing whitespace
-        assertEquals(expected, actual);
-    }
     // Add more test cases as needed
 
 }
