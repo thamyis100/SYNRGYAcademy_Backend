@@ -1,22 +1,16 @@
 package synrgy7thapmoch1;
-import org.junit.Rule;
-import org.junit.contrib.java.lang.system.ExpectedSystemExit;
-import org.junit.contrib.java.lang.system.TextFromStandardInputStream;
+import lombok.SneakyThrows;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.*;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static java.lang.System.out;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 public class RestoranTest {
@@ -50,6 +44,76 @@ public class RestoranTest {
     public void restoreStreams() {
         System.setOut(originalOut);
         System.setIn(originalIn);
+    }
+
+    @Test
+    public void testMain_ValidInput() {
+        // Mock user input
+        ByteArrayInputStream in = new ByteArrayInputStream("1\n99\n".getBytes());
+        System.setIn(in);
+
+        // Mock System.out
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(out));
+
+        // Execute the main method
+        Restoran.main(null);
+
+        // Verify output
+        String output = out.toString();
+        assertTrue(output.contains("Selamat datang di BinarFud"));
+        assertTrue(output.contains("Pilihan Anda:"));
+        assertTrue(output.contains("Terima kasih"));
+
+//        // Verify exit call
+//        verifyStatic(Restoran.class, times(1));
+//        Restoran.exit();
+    }
+
+    @Test
+    public void testMain_NonIntegerInput() {
+        // Mock user input
+        ByteArrayInputStream in = new ByteArrayInputStream("abc\n1\n99\n".getBytes());
+        System.setIn(in);
+
+        // Mock System.out
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(out));
+
+        // Execute the main method
+        Restoran.main(null);
+
+        // Verify output
+        String output = out.toString();
+        assertTrue(output.contains("Input tidak valid"));
+        assertTrue(output.contains("Mohon masukkan angka"));
+
+//        // Verify exit call
+//        verifyStatic(Restoran.class, times(1));
+//        Restoran.exit();
+    }
+
+    @Test
+    public void testMain_NoMoreInput() {
+        // Mock user input
+        ByteArrayInputStream in = new ByteArrayInputStream("1\n".getBytes());
+        System.setIn(in);
+
+        // Mock System.out
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(out));
+
+        // Execute the main method
+        Restoran.main(null);
+
+        // Verify output
+        String output = out.toString();
+        assertTrue(output.contains("Input tidak valid"));
+        assertTrue(output.contains("No more input available"));
+
+        // Verify exit call
+//        verifyStatic(Restoran.class, times(1));
+//        Restoran.exit();
     }
 
     @Test
@@ -126,7 +190,7 @@ public class RestoranTest {
     public void testTotal() {
         Integer total = 100;
         Restoran.total(total);
-        String expected = "Total\t\t\t" + total;
+        String expected = "Total\t\t\t\t\t" + total;
         String actual = outContent.toString().trim();  // Trim any leading/trailing whitespace
         assertEquals(expected, actual);
     }
@@ -212,8 +276,122 @@ public class RestoranTest {
         assertTrue(out.toString().contains("=> "));
     }
 
-    @test
+    @SneakyThrows
+    @Test
+    public void testGeneratePaymentReceipt_Success() {
+        // Create a list of orders for testing
+        List<Order> orders = new ArrayList<>();
+        orders.add(new Order("Nasi Goreng", 2));
+        orders.add(new Order("Mie Goreng", 1));
 
+        // Set up the output stream to capture console output
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        // Call the method under test
+        Restoran.generatePaymentReceipt(orders, 43000);
+
+        // Check if the receipt file is created
+        File receiptFile = new File("payment_receipt.txt");
+        assertTrue(receiptFile.exists());
+
+        // Check if the console output contains the expected message
+        assertTrue(outContent.toString().contains("Receipt created successfully."));
+
+        // Clean up: delete the created receipt file
+        receiptFile.delete();
+    }
+
+//    @Test
+//    void testGeneratePaymentReceipt_IOException() throws IOException {
+//        // Create a mock FileWriter
+//        FileWriter fileWriterMock = Mockito.mock(FileWriter.class);
+//
+//        // Stub the behavior of the FileWriter to throw an IOException when write method is called
+//        doThrow(new IOException()).when(fileWriterMock).write(anyString());
+//
+//        // Create an empty list of orders and a total amount
+//        List<Order> orders = new ArrayList<>();
+//        int total = 0;
+//
+//        // Call the method under test with the mocked FileWriter
+//        Restoran.generatePaymentReceipt(orders, total, fileWriterMock);
+//
+//        // Verify that the IOException is thrown
+//        assertTrue(true); // Placeholder assertion to ensure the test fails if the exception is not thrown
+//    }
+
+
+    @Test
+    void confirmOrderTest_inputvalid() {
+        // Mock input containing choice 1
+        String input = "2";
+        ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
+
+        // Mock System.out to capture printed output
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        // Create a list of orders for testing
+        List<Order> orders = new ArrayList<>();
+        orders.add(new Order("Nasi Goreng", 30000));
+
+        // Call the method under test
+        Restoran.confirmOrder(orders);
+
+        // Verify that the correct output is printed
+        String expectedOutput = "==========================\n" +
+                "Konfirmasi & Pembayaran\n" +
+                "==========================\n" +
+                "\n" +
+                "Nasi Goreng  \t\t2\t30000\n" +
+                "------------------------------ +\n" +
+                "Total\t\t\t\t\t30000\n" +
+                "\n" +
+                "1. Konfirmasi dan Bayar\n" +
+                "2. Kembali ke menu utama\n" +
+                "0. Keluar aplikasi\n" +
+                "=>\n";
+        assertEquals(expectedOutput.replaceAll("\\s", ""), outContent.toString().replaceAll("\\s", ""));
+
+    }
+
+    @Test
+    void confirmOrderTest_inputinvalid() {
+        // Mock input containing choice 1
+        String input = "5";
+        ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
+
+        // Mock System.out to capture printed output
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        // Create a list of orders for testing
+        List<Order> orders = new ArrayList<>();
+        orders.add(new Order("Nasi Goreng", 30000));
+
+        // Call the method under test
+        Restoran.confirmOrder(orders);
+
+        // Verify that the correct output is printed
+        String expectedOutput = "==========================\n" +
+                "Konfirmasi & Pembayaran\n" +
+                "==========================\n" +
+                "\n" +
+                "Nasi Goreng  \t\t2\t30000\n" +
+                "------------------------------ +\n" +
+                "Total\t\t\t\t\t30000\n" +
+                "\n" +
+                "1. Konfirmasi dan Bayar\n" +
+                "2. Kembali ke menu utama\n" +
+                "0. Keluar aplikasi\n" +
+                "=>\n" +
+                "Pilihan tidak valid.\n";
+//        assertEquals(expectedOutput, outContent.toString());
+        assertEquals(expectedOutput.replaceAll("\\s", ""), outContent.toString().replaceAll("\\s", ""));
+    }
     // Add more test cases as needed
 
 }
