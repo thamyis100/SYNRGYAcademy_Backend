@@ -1,5 +1,6 @@
 package synrgy7thapmoch4.Services.OrderService.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import synrgy7thapmoch4.Entity.Order;
 import synrgy7thapmoch4.Repository.OrderRepository;
@@ -11,8 +12,9 @@ import java.util.Map;
 
 @Service
 public class OrderServiceImpl implements OrderService {
-
+    @Autowired
     private Response response;
+    @Autowired
     private OrderRepository OrderRepository;
     @Override
     public Map placeOrder(Order request) {

@@ -1,5 +1,6 @@
 package synrgy7thapmoch4.Services.MerchantService.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -15,7 +16,9 @@ import java.util.Optional;
 
 @Service
 public class MerchantServiceImpl implements MerchantService {
+    @Autowired
     private Response response;
+    @Autowired
     private MerchantRepository MerchantRepository;
 
     @Override
