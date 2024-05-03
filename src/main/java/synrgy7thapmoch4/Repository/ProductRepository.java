@@ -1,20 +1,15 @@
 package synrgy7thapmoch4.Repository;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import synrgy7thapmoch4.Entity.Product;
 
-import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 
 @Repository
-public class ProductRepository {
-    public Product save(Product product) {
-        return null;
-    }
+public interface ProductRepository extends JpaRepository<Product, Long> {
+    Optional<Product> findById(UUID id);
 
-    public void deleteById(int productId) {
-    }
-
-    public List<Product> findAll() {
-        return null;
-    }
+    // No need to implement save, deleteById, or findAll methods since they're already provided by JpaRepository
 }

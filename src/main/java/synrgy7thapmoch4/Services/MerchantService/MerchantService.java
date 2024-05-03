@@ -2,15 +2,12 @@ package synrgy7thapmoch4.Services.MerchantService;
 
 import synrgy7thapmoch4.Entity.Merchant;
 
-import java.util.List;
-import java.util.UUID;
+import java.util.Map;
 
 public interface MerchantService {
-    Merchant addMerchant(Merchant merchant);
+    Map save(Merchant request);
+    Map edit(Merchant request);
+    Map delete(Merchant request);
 
-    Merchant updateMerchant(Merchant merchant);
-
-    List<Merchant> deleteMerchant(UUID merchantId);
-
-    List<Merchant> getOpenMerchants();
+    Map listByOpen(int page, int size);
 }

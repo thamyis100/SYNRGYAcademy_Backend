@@ -1,59 +1,82 @@
 package synrgy7thapmoch4.Services.ProductService.impl;
 
 
+import org.springframework.util.StringUtils;
 import synrgy7thapmoch4.Entity.Product;
+import synrgy7thapmoch4.Repository.ProductRepository;
 import synrgy7thapmoch4.Services.ProductService.ProductService;
+import synrgy7thapmoch4.utils.Response;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.Map;
+import java.util.Optional;
 
 // ProductServiceImpl.java
 public class ProductServiceImpl implements ProductService {
-    static List<Product> listproduct = new ArrayList<>();
+    private Response response;
+    private ProductRepository ProductRepository;
 
     @Override
-    public Product addProduct(Product product) {
-        listproduct.add(product);
-        return product;
-    }
-
-    @Override
-    public Product updateProduct(Product product) {
-        for (Product data : listproduct){
-            if (product.getId() == data.getId()){
-                Product update = new Product();
-                update.setId(data.getId());
-                update.setName(data.getName());
-                update.setPrice(data.getPrice());
-                update.setMerchant_id(data.getMerchant_id());
-                listproduct.remove(data);
-                listproduct.add(update);
-                return update;
-            }
+    public Map save(Product request) {
+        /*
+        1. validasi field apa : Wajib sesuai flow bisnis
+         */
+        if(response.chekNull(request.getName())){
+            return  response.error("Name is required.",402);
         }
-        return null;
-    }
-
-    @Override
-    public List<Product> deleteProduct(UUID productId) {
-        for(Product data : listproduct){
-            if(productId.equals(data.getId())){
-                Product update = new Product();
-                update.setName(data.getName());
-                update.setId(data.getId());
-                update.setPrice(data.getPrice());
-                update.setMerchant_id(data.getMerchant_id());
-                listproduct.remove(data);
-
-                return listproduct;
-            }
+        if(StringUtils.isEmpty(request.getName())){
+            return  response.error("Name is required.",402);
         }
-        return null;
+
+        return response.sukses(ProductRepository.save(request));
     }
 
     @Override
-    public List<Product> getAllProducts() {
-        return listproduct;
+    public Map edit(Product request) {
+        try {
+        /*
+        1. get id  -> cehk data ke db, ?
+        2. save
+         */
+            if(response.chekNull(request.getId())){
+                return  response.error("Id is required.",402);
+            }
+
+            Optional<Product> getId = ProductRepository.findById(request.getId());
+            if(!getId.isPresent()){
+                return response.error("id not found", 404);
+            }
+
+            Product edit = getId.get();
+            edit.setPrice(request.getPrice());
+            edit.setName(request.getName());
+            edit.setMerchant_id(request.getMerchant_id());
+
+            return response.sukses(ProductRepository.save(edit));
+        }catch (Exception e){
+            return response.error(e.getMessage(), 500);
+        }
     }
+
+    @Override
+    public Map delete(Product request) {
+        if (request.getId() == null) {
+            return response.error("Id is required.", 402);
+        }
+
+        Optional<Product> optionalProduct = ProductRepository.findById(request.getId());
+        if (optionalProduct.isPresent()) {
+            ProductRepository.delete(optionalProduct.get());
+            return response.sukses("Product deleted successfully.");
+        } else {
+            return response.error("Product not found.", 404);
+        }
+    }
+
+    @Override
+    public Map listAllProduct() {
+        Iterable<Product> products = ProductRepository.findAll();
+        return response.sukses(products);
+    }
+
+
 }

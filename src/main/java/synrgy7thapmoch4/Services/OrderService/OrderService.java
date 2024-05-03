@@ -2,10 +2,10 @@ package synrgy7thapmoch4.Services.OrderService;
 
 import synrgy7thapmoch4.Entity.Order;
 
-import java.util.List;
+import java.util.Map;
 
 public interface OrderService {
-    Order placeOrder(Order order);
+    Map placeOrder(Order request);
 
-    List<Order> getAllOrders();
+    Map listAllOrder();
 }
