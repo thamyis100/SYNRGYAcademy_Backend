@@ -3,14 +3,12 @@ package synrgy7thapmoch4.Entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.annotations.Where;
 
 import java.util.UUID;
 
 @Data
 @Entity
 @Table(name = "\"Order_Detail\"")
-@Where(clause = "deleted_date is null")
 public class Order_Detail {
     @Id
     @Column(name = "id")

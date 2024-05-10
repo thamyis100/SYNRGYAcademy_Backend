@@ -1,0 +1,257 @@
+[2024-05-10 13:57:06,691][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingEmployee using Java 21 with PID 22220 (started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 13:57:06,694][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 13:57:07,505][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 13:57:07,604][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+[2024-05-10 13:57:08,339][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-05-10 13:57:08,351][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-05-10 13:57:08,354][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 13:57:08,354][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 13:57:08,448][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 13:57:08,449][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1729 ms
+[2024-05-10 13:57:08,728][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 13:57:08,833][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 13:57:08,882][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 13:57:09,185][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 13:57:09,222][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 13:57:09,636][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d88ce0e
+[2024-05-10 13:57:09,637][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 13:57:10,918][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 13:57:11,171][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 13:57:11,552][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 13:57:12,394][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 13:57:13,106][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-05-10 13:57:13,136][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 51922 (http) with context path ''
+[2024-05-10 13:57:13,146][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingEmployee in 6.941 seconds (process running for 8.024)
+[2024-05-10 13:57:13,693][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 13:57:13,695][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 13:57:13,703][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 13:57:27,956][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 7852 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 13:57:27,957][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 13:57:28,662][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 13:57:28,756][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+[2024-05-10 13:57:29,371][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 13:57:29,382][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 13:57:29,385][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 13:57:29,385][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 13:57:29,470][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 13:57:29,470][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1473 ms
+[2024-05-10 13:57:29,750][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 13:57:29,859][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 13:57:29,900][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 13:57:30,153][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 13:57:30,187][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 13:57:30,368][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21a6a494
+[2024-05-10 13:57:30,370][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 13:57:31,405][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 13:57:31,508][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 13:57:31,815][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 13:57:32,656][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 13:57:33,178][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 13:57:33,220][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 13:57:33,231][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.774 seconds (process running for 6.332)
+[2024-05-10 13:57:33,240][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 13:57:33,241][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 13:57:33,242][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 13:57:33,242][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 13:58:28,970][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 13:58:28,970][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 13:58:28,972][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][554]Completed initialization in 1 ms
+[2024-05-10 13:59:18,379][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-4][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-05-10 13:59:37,009][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 13:59:37,010][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: {data=Page 1 of 0 containing UNKNOWN instances, message=Success, status=200}
+[2024-05-10 14:00:32,287][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-6][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.MerchantController.savemerchant(synrgy7thapmoch4.Entity.Merchant)]
+[2024-05-10 14:00:42,969][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-8][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.MerchantController.savemerchant(synrgy7thapmoch4.Entity.Merchant)]
+[2024-05-10 14:00:54,145][WARN ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][35]Null object detected.
+[2024-05-10 14:00:54,145][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][26]Error response: code=402, message=Name is required.
+[2024-05-10 14:00:54,145][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: {message=Name is required., status=402}
+[2024-05-10 14:02:22,245][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-3][247]Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------505389884523201758388736;charset=UTF-8' is not supported]
+[2024-05-10 14:02:24,811][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-4][247]Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------011804777804531612257289;charset=UTF-8' is not supported]
+[2024-05-10 14:02:25,588][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-5][247]Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------275090081649415868451869;charset=UTF-8' is not supported]
+[2024-05-10 14:02:26,282][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-6][247]Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------399108235690099632990465;charset=UTF-8' is not supported]
+[2024-05-10 14:03:49,184][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-9][17]Success response: Merchant(id=e463dae2-f00e-4316-9918-d7e027244576, name=thamyis, location=sampang, open=false)
+[2024-05-10 14:03:49,184][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-9][17]Success response: {data=Merchant(id=e463dae2-f00e-4316-9918-d7e027244576, name=thamyis, location=sampang, open=false), message=Success, status=200}
+[2024-05-10 14:04:46,035][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: Merchant(id=8e4fb499-dee5-4903-aeec-a543f8bb5024, name=thamyis, location=sampang, open=false)
+[2024-05-10 14:04:46,035][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: {data=Merchant(id=8e4fb499-dee5-4903-aeec-a543f8bb5024, name=thamyis, location=sampang, open=false), message=Success, status=200}
+[2024-05-10 14:04:49,994][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: Merchant(id=c555643d-ceff-4482-8be4-e7a5d0ffddcc, name=thamyis, location=sampang, open=false)
+[2024-05-10 14:04:49,994][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: {data=Merchant(id=c555643d-ceff-4482-8be4-e7a5d0ffddcc, name=thamyis, location=sampang, open=false), message=Success, status=200}
+[2024-05-10 14:05:03,401][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: Merchant(id=e55ba802-de6c-4c55-867b-bc8be69f713c, name=thamyis, location=sampang, open=true)
+[2024-05-10 14:05:03,402][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: {data=Merchant(id=e55ba802-de6c-4c55-867b-bc8be69f713c, name=thamyis, location=sampang, open=true), message=Success, status=200}
+[2024-05-10 14:05:12,477][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-3][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `boolean` from String "trueasf": only "true"/"True"/"TRUE" or "false"/"False"/"FALSE" recognized]
+[2024-05-10 14:05:21,982][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Merchant(id=fe2a455d-9844-454e-9217-5e9ddb1daf30, name=thamyis, location=sampang, open=false)
+[2024-05-10 14:05:21,983][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: {data=Merchant(id=fe2a455d-9844-454e-9217-5e9ddb1daf30, name=thamyis, location=sampang, open=false), message=Success, status=200}
+[2024-05-10 14:06:31,135][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 14:06:31,136][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: {data=Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances, message=Success, status=200}
+[2024-05-10 14:07:55,664][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-1][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:10:15,418][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-3][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:10:16,448][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-5][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:11:05,052][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-7][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:11:05,991][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-9][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:11:06,825][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-1][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:11:18,245][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-3][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:11:19,197][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-5][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 14:18:35,250][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 14:18:35,250][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: {data=Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances, message=Success, status=200}
+[2024-05-10 14:19:18,195][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-7][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+[2024-05-10 14:19:22,757][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-9][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+[2024-05-10 14:19:25,666][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 14:19:25,666][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: {data=Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances, message=Success, status=200}
+[2024-05-10 14:19:51,103][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:19:51,105][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 14:19:51,107][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 14:19:57,536][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 26216 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 14:19:57,538][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 14:19:58,249][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 14:19:58,342][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 86 ms. Found 5 JPA repository interfaces.
+[2024-05-10 14:19:58,942][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 14:19:58,953][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 14:19:58,955][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 14:19:58,956][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 14:19:59,062][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 14:19:59,062][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1483 ms
+[2024-05-10 14:19:59,412][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 14:19:59,522][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 14:19:59,573][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 14:19:59,809][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 14:19:59,843][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 14:20:00,033][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75839695
+[2024-05-10 14:20:00,034][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 14:20:01,165][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 14:20:01,285][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:20:01,566][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 14:20:02,266][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService': No qualifying bean of type 'synrgy7thapmoch4.Services.ProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[2024-05-10 14:20:02,268][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:20:02,272][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 14:20:02,283][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 14:20:02,285][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2024-05-10 14:20:02,301][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-10 14:20:02,361][ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][main][40]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productService in synrgy7thapmoch4.Controller.ProductController required a bean of type 'synrgy7thapmoch4.Services.ProductService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'synrgy7thapmoch4.Services.ProductService' in your configuration.
+
+[2024-05-10 14:21:37,317][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 15148 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 14:21:37,319][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 14:21:38,012][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 14:21:38,112][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 91 ms. Found 5 JPA repository interfaces.
+[2024-05-10 14:21:38,724][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 14:21:38,734][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 14:21:38,737][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 14:21:38,737][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 14:21:38,823][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 14:21:38,824][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1465 ms
+[2024-05-10 14:21:39,122][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 14:21:39,218][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 14:21:39,263][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 14:21:39,478][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 14:21:39,513][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 14:21:39,700][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@141aba65
+[2024-05-10 14:21:39,703][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 14:21:40,664][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 14:21:40,764][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:21:41,125][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 14:21:41,927][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 14:21:42,485][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 14:21:42,518][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 14:21:42,530][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.724 seconds (process running for 6.28)
+[2024-05-10 14:21:42,540][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 14:21:42,542][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 14:21:42,543][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 14:21:42,543][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 14:21:46,166][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 14:21:46,166][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 14:21:46,167][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][554]Completed initialization in 1 ms
+[2024-05-10 14:21:46,212][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-2][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.ProductController.saveproduct(synrgy7thapmoch4.Entity.Product)]
+[2024-05-10 14:22:02,493][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-3][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+[2024-05-10 14:22:05,851][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-9][17]Success response: []
+[2024-05-10 14:22:31,558][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-6][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-05-10 14:22:35,138][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-5][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.ProductController.deleteproduct(synrgy7thapmoch4.Entity.Product)]
+[2024-05-10 14:23:48,285][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: Product(id=787c5ee9-200d-4337-88a0-315a4f178ca6, name=bakso, price=15000.0, merchant_id=null)
+[2024-05-10 14:23:48,285][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: {data=Product(id=787c5ee9-200d-4337-88a0-315a4f178ca6, name=bakso, price=15000.0, merchant_id=null), message=Success, status=200}
+[2024-05-10 14:25:12,908][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:25:12,910][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 14:25:12,914][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 14:25:16,652][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 7716 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 14:25:16,655][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 14:25:17,410][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 14:25:17,506][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+[2024-05-10 14:25:18,120][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 14:25:18,134][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 14:25:18,136][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 14:25:18,136][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 14:25:18,259][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 14:25:18,260][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1560 ms
+[2024-05-10 14:25:18,588][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 14:25:18,664][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 14:25:18,708][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 14:25:18,929][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 14:25:18,966][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 14:25:19,151][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@108b121f
+[2024-05-10 14:25:19,153][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 14:25:20,241][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 14:25:20,342][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:25:20,692][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 14:25:21,509][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 14:25:22,035][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 14:25:22,065][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 14:25:22,078][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.964 seconds (process running for 6.495)
+[2024-05-10 14:25:22,088][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 14:25:22,089][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 14:25:22,090][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 14:25:22,090][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 14:25:39,410][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 14:25:39,410][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 14:25:39,412][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][554]Completed initialization in 1 ms
+[2024-05-10 14:25:39,628][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: Product(id=0c19b271-b03a-4e3a-b972-6e4b76ec0629, name=mie ayam, price=10000.0, merchant_id=null)
+[2024-05-10 14:33:54,684][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:33:54,685][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 14:33:54,689][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 14:33:58,463][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 10960 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 14:33:58,465][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 14:33:59,192][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 14:33:59,289][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 90 ms. Found 5 JPA repository interfaces.
+[2024-05-10 14:33:59,896][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 14:33:59,910][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 14:33:59,912][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 14:33:59,913][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 14:34:00,035][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 14:34:00,035][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1526 ms
+[2024-05-10 14:34:00,361][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 14:34:00,502][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 14:34:00,541][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 14:34:00,762][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 14:34:00,800][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 14:34:00,992][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37a67cf
+[2024-05-10 14:34:00,994][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 14:34:02,017][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 14:34:02,122][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:34:02,488][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 14:34:03,363][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 14:34:04,020][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 14:34:04,053][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 14:34:04,064][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 6.118 seconds (process running for 6.658)
+[2024-05-10 14:34:04,073][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 14:34:04,075][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 14:34:04,076][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 14:34:04,076][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 14:34:06,496][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 14:34:06,497][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 14:34:06,498][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][554]Completed initialization in 1 ms
+[2024-05-10 14:34:06,626][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: []
+[2024-05-10 14:38:06,192][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 14:38:06,194][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 14:38:06,197][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.

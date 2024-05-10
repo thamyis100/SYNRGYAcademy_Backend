@@ -1,4 +1,4 @@
-package synrgy7thapmoch4.Services.MerchantService.impl;
+package synrgy7thapmoch4.Services.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import synrgy7thapmoch4.Entity.Merchant;
 import synrgy7thapmoch4.Repository.MerchantRepository;
-import synrgy7thapmoch4.Services.MerchantService.MerchantService;
+import synrgy7thapmoch4.Services.MerchantService;
 import synrgy7thapmoch4.utils.Response;
 
 import java.util.Map;

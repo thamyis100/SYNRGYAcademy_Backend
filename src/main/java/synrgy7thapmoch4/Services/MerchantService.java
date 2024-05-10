@@ -1,4 +1,4 @@
-package synrgy7thapmoch4.Services.MerchantService;
+package synrgy7thapmoch4.Services;
 
 import synrgy7thapmoch4.Entity.Merchant;
 

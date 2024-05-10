@@ -1,11 +1,11 @@
-package synrgy7thapmoch4.Services.UserService.impl;
+package synrgy7thapmoch4.Services.impl;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import synrgy7thapmoch4.Entity.User;
 import synrgy7thapmoch4.Repository.UserRepository;
-import synrgy7thapmoch4.Services.UserService.UserService;
+import synrgy7thapmoch4.Services.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

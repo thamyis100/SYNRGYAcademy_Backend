@@ -2,7 +2,6 @@ package synrgy7thapmoch4.Entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.annotations.Where;
 
 import java.sql.Timestamp;
 import java.util.UUID;
@@ -10,7 +9,6 @@ import java.util.UUID;
 @Data
 @Entity
 @Table(name = "\"Order\"")
-@Where(clause = "deleted_date is null")
 public class Order {
     @Id
     @Column(name = "id")

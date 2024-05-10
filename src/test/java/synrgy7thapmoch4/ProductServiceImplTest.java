@@ -3,8 +3,8 @@ package synrgy7thapmoch4;
 // ProductServiceImplTest.java
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import synrgy7thapmoch4.Services.ProductService.ProductService;
-import synrgy7thapmoch4.Services.ProductService.impl.ProductServiceImpl;
+import synrgy7thapmoch4.Services.ProductService;
+import synrgy7thapmoch4.Services.impl.ProductServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

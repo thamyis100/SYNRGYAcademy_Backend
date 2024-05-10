@@ -1,17 +1,19 @@
-package synrgy7thapmoch4.Services.ProductService.impl;
+package synrgy7thapmoch4.Services.impl;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import synrgy7thapmoch4.Entity.Product;
 import synrgy7thapmoch4.Repository.ProductRepository;
-import synrgy7thapmoch4.Services.ProductService.ProductService;
+import synrgy7thapmoch4.Services.ProductService;
 import synrgy7thapmoch4.utils.Response;
 
 import java.util.Map;
 import java.util.Optional;
 
 // ProductServiceImpl.java
+@Service
 public class ProductServiceImpl implements ProductService {
     @Autowired
     private Response response;

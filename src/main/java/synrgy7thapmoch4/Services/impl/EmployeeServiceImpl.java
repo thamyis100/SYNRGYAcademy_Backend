@@ -1,4 +1,4 @@
-package synrgy7thapmoch4.Services.EmployeeService.impl;
+package synrgy7thapmoch4.Services.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import synrgy7thapmoch4.Entity.Employee;
 import synrgy7thapmoch4.Repository.EmployeeRepository;
-import synrgy7thapmoch4.Services.EmployeeService.EmployeeService;
+import synrgy7thapmoch4.Services.EmployeeService;
 import synrgy7thapmoch4.utils.Response;
 
 import java.util.HashMap;

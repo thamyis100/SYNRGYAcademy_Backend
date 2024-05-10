@@ -10,7 +10,6 @@ import java.util.UUID;
 @Data
 @Entity
 @Table(name = "Product")
-@Where(clause = "deleted_date is null")
 public class Product {
     @Id
     @Column(name = "id")

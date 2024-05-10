@@ -1,10 +1,10 @@
-package synrgy7thapmoch4.Services.OrderService.impl;
+package synrgy7thapmoch4.Services.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import synrgy7thapmoch4.Entity.Order;
 import synrgy7thapmoch4.Repository.OrderRepository;
-import synrgy7thapmoch4.Services.OrderService.OrderService;
+import synrgy7thapmoch4.Services.OrderService;
 import synrgy7thapmoch4.utils.Response;
 
 import java.util.List;
