@@ -255,3 +255,656 @@ Consider defining a bean of type 'synrgy7thapmoch4.Services.ProductService' in y
 [2024-05-10 14:38:06,192][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
 [2024-05-10 14:38:06,194][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
 [2024-05-10 14:38:06,197][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 15:14:57,537][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 7984 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 15:14:57,540][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 15:14:58,343][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 15:14:58,454][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 104 ms. Found 5 JPA repository interfaces.
+[2024-05-10 15:14:59,100][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 15:14:59,111][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 15:14:59,113][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 15:14:59,113][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 15:14:59,192][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 15:14:59,192][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1605 ms
+[2024-05-10 15:14:59,527][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 15:14:59,647][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 15:14:59,687][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 15:14:59,906][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 15:14:59,944][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 15:15:00,130][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3513d214
+[2024-05-10 15:15:00,131][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 15:15:01,117][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 15:15:01,224][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 15:15:01,539][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 15:15:02,350][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 15:15:02,912][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 15:15:02,951][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 15:15:02,962][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.978 seconds (process running for 6.567)
+[2024-05-10 15:15:02,973][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 15:15:02,974][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 15:15:02,975][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 15:15:02,975][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 15:15:09,819][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 15:15:09,820][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 15:15:09,821][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 1 ms
+[2024-05-10 15:15:09,951][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: []
+[2024-05-10 15:15:16,546][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][17]Success response: []
+[2024-05-10 15:15:20,029][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: []
+[2024-05-10 15:15:26,725][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 15:15:26,727][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 15:15:26,730][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 15:43:47,970][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 19932 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 15:43:47,972][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 15:43:48,725][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 15:43:48,833][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 100 ms. Found 5 JPA repository interfaces.
+[2024-05-10 15:43:49,487][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 15:43:49,499][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 15:43:49,502][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 15:43:49,502][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 15:43:49,597][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 15:43:49,597][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1575 ms
+[2024-05-10 15:43:49,910][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 15:43:50,006][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 15:43:50,042][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 15:43:50,280][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 15:43:50,310][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 15:43:50,491][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e0f2c82
+[2024-05-10 15:43:50,492][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 15:43:51,461][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 15:43:51,571][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 15:43:51,938][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 15:43:52,745][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 15:43:53,313][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 15:43:53,348][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 15:43:53,357][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.889 seconds (process running for 6.476)
+[2024-05-10 15:43:53,365][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 15:43:53,366][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 15:43:53,366][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 15:43:53,367][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 15:43:53,963][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 15:43:53,963][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 15:43:53,964][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 1 ms
+[2024-05-10 15:43:54,005][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-1][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 15:43:55,366][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-4][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 15:43:57,632][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-6][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 15:44:20,756][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-8][145]SQL Error: 0, SQLState: 42883
+[2024-05-10 15:44:20,757][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-8][150]ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-05-10 15:44:20,762][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-8][145]SQL Error: 0, SQLState: 25P02
+[2024-05-10 15:44:20,762][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-8][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-05-10 15:44:20,768][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-8][175]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: Error calling CallableStatement.getMoreResults [ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6] [HikariProxyCallableStatement@121223903 wrapping call create_user(('458345'::int8),('thamyis100'),('thamyis100@gmail.con'))]; SQL [HikariProxyCallableStatement@121223903 wrapping call create_user(('458345'::int8),('thamyis100'),('thamyis100@gmail.con'))]] with root cause
+org.postgresql.util.PSQLException: ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:84)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyCallableStatement.execute(HikariProxyCallableStatement.java)
+	at org.hibernate.result.internal.OutputsImpl.executeStatement(OutputsImpl.java:69)
+	at org.hibernate.procedure.internal.ProcedureOutputsImpl.<init>(ProcedureOutputsImpl.java:49)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.buildOutputs(ProcedureCallImpl.java:721)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.getOutputs(ProcedureCallImpl.java:605)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.outputs(ProcedureCallImpl.java:858)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.execute(ProcedureCallImpl.java:842)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ProcedureExecution.doExecute(JpaQueryExecution.java:345)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:149)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy140.createUserSP(Unknown Source)
+	at synrgy7thapmoch4.Services.impl.UserServiceImpl.createUser(UserServiceImpl.java:17)
+	at synrgy7thapmoch4.Controller.UserController.createUser(UserController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-10 15:44:31,133][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][145]SQL Error: 0, SQLState: 42883
+[2024-05-10 15:44:31,133][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][150]ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-05-10 15:44:31,134][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][145]SQL Error: 0, SQLState: 25P02
+[2024-05-10 15:44:31,134][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-05-10 15:44:31,135][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-10][175]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: Error calling CallableStatement.getMoreResults [ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6] [HikariProxyCallableStatement@860761992 wrapping call create_user(('458345'::int8),('thamyis100'),('thamyis100@gmail.con'))]; SQL [HikariProxyCallableStatement@860761992 wrapping call create_user(('458345'::int8),('thamyis100'),('thamyis100@gmail.con'))]] with root cause
+org.postgresql.util.PSQLException: ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:84)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyCallableStatement.execute(HikariProxyCallableStatement.java)
+	at org.hibernate.result.internal.OutputsImpl.executeStatement(OutputsImpl.java:69)
+	at org.hibernate.procedure.internal.ProcedureOutputsImpl.<init>(ProcedureOutputsImpl.java:49)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.buildOutputs(ProcedureCallImpl.java:721)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.getOutputs(ProcedureCallImpl.java:605)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.outputs(ProcedureCallImpl.java:858)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.execute(ProcedureCallImpl.java:842)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ProcedureExecution.doExecute(JpaQueryExecution.java:345)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:149)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy140.createUserSP(Unknown Source)
+	at synrgy7thapmoch4.Services.impl.UserServiceImpl.createUser(UserServiceImpl.java:17)
+	at synrgy7thapmoch4.Controller.UserController.createUser(UserController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-10 15:44:38,784][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-2][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 15:44:39,824][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-4][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 15:44:40,810][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-6][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 15:44:41,711][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-7][247]Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type Long is not present]
+[2024-05-10 15:44:55,780][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][145]SQL Error: 0, SQLState: 42883
+[2024-05-10 15:44:55,781][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][150]ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-05-10 15:44:55,782][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][145]SQL Error: 0, SQLState: 25P02
+[2024-05-10 15:44:55,782][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][http-nio-8080-exec-10][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-05-10 15:44:55,783][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-10][175]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessResourceUsageException: Error calling CallableStatement.getMoreResults [ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6] [HikariProxyCallableStatement@1993437977 wrapping call create_user(('458345'::int8),('thamyis100'),('thamyis100@gmail.con'))]; SQL [HikariProxyCallableStatement@1993437977 wrapping call create_user(('458345'::int8),('thamyis100'),('thamyis100@gmail.con'))]] with root cause
+org.postgresql.util.PSQLException: ERROR: procedure create_user(bigint, character varying, character varying) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:84)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyCallableStatement.execute(HikariProxyCallableStatement.java)
+	at org.hibernate.result.internal.OutputsImpl.executeStatement(OutputsImpl.java:69)
+	at org.hibernate.procedure.internal.ProcedureOutputsImpl.<init>(ProcedureOutputsImpl.java:49)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.buildOutputs(ProcedureCallImpl.java:721)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.getOutputs(ProcedureCallImpl.java:605)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.outputs(ProcedureCallImpl.java:858)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.execute(ProcedureCallImpl.java:842)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$ProcedureExecution.doExecute(JpaQueryExecution.java:345)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:149)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy140.createUserSP(Unknown Source)
+	at synrgy7thapmoch4.Services.impl.UserServiceImpl.createUser(UserServiceImpl.java:17)
+	at synrgy7thapmoch4.Controller.UserController.createUser(UserController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-10 16:55:31,142][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][804]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m40s223ms208µs700ns).
+[2024-05-10 17:42:24,858][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][804]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s109ms279µs600ns).
+[2024-05-10 21:07:56,448][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][804]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h44m31s19ms765µs300ns).
+[2024-05-10 21:27:22,340][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 21:27:22,341][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 21:27:22,345][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 21:29:10,963][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 20516 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 21:29:10,965][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 21:29:11,703][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 21:29:11,797][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 85 ms. Found 5 JPA repository interfaces.
+[2024-05-10 21:29:12,448][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 21:29:12,464][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 21:29:12,467][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 21:29:12,467][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 21:29:12,559][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 21:29:12,559][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1546 ms
+[2024-05-10 21:29:12,838][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 21:29:12,936][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 21:29:12,979][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 21:29:13,213][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 21:29:13,242][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 21:29:13,426][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b5312df
+[2024-05-10 21:29:13,428][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 21:29:14,568][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 21:29:14,684][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 21:29:14,980][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 21:29:15,842][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 21:29:16,332][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 21:29:16,383][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 21:29:16,393][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.996 seconds (process running for 6.542)
+[2024-05-10 21:29:16,402][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 21:29:16,403][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 21:29:16,403][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 21:29:16,404][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 21:33:23,730][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-9][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 21:33:23,730][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-9][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 21:33:23,731][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-9][554]Completed initialization in 1 ms
+[2024-05-10 21:33:23,776][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-9][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.MerchantController.updatemerchant(synrgy7thapmoch4.Entity.Merchant)]
+[2024-05-10 21:34:33,694][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-10][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.MerchantController.deletemerchant(synrgy7thapmoch4.Entity.Merchant)]
+[2024-05-10 21:34:37,164][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-1][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-05-10 21:34:41,308][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-4][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+[2024-05-10 21:34:43,875][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-8][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.MerchantController.deletemerchant(synrgy7thapmoch4.Entity.Merchant)]
+[2024-05-10 21:44:00,824][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-7][17]Success response: Merchant(id=c6be506f-ba91-4fe4-b8b9-c3835a8a1c8e, name=thamyis, location=sampang, open=false)
+[2024-05-10 21:52:36,416][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: Merchant deleted successfully.
+[2024-05-10 21:52:43,492][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 21:52:55,408][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][26]Error response: code=404, message=Merchant not found.
+[2024-05-10 21:52:56,944][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][26]Error response: code=404, message=Merchant not found.
+[2024-05-10 21:53:02,049][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: Merchant deleted successfully.
+[2024-05-10 21:53:06,291][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:53:08,617][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:53:11,815][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-7][17]Success response: Merchant(id=fbe6e2b2-4755-4a03-bf16-ea9328109182, name=thamyis, location=sampang, open=false)
+[2024-05-10 21:53:30,372][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-6][26]Error response: code=402, message=Id is required.
+[2024-05-10 21:54:46,208][WARN ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][35]Null object detected.
+[2024-05-10 21:54:46,208][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][26]Error response: code=402, message=Id is required.
+[2024-05-10 21:54:51,715][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:54:54,171][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:54:57,847][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: Merchant(id=24359c72-75cd-42d5-925c-825a90353733, name=thamyis, location=sampang, open=false)
+[2024-05-10 21:55:00,972][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:55:05,691][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 21:55:05,693][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 21:55:05,695][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 21:55:08,581][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 20972 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 21:55:08,584][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 21:55:09,285][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 21:55:09,379][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 85 ms. Found 5 JPA repository interfaces.
+[2024-05-10 21:55:09,970][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 21:55:09,983][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 21:55:09,985][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 21:55:09,986][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 21:55:10,127][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 21:55:10,128][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1499 ms
+[2024-05-10 21:55:10,506][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 21:55:10,611][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 21:55:10,645][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 21:55:10,859][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 21:55:10,895][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 21:55:11,131][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4300e240
+[2024-05-10 21:55:11,133][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 21:55:12,141][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 21:55:12,262][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 21:55:12,665][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 21:55:13,559][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 21:55:14,101][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 21:55:14,128][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 21:55:14,139][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 6.062 seconds (process running for 6.599)
+[2024-05-10 21:55:14,145][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 21:55:14,145][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 21:55:14,145][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 21:55:14,145][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 21:55:15,667][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 21:55:15,668][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 21:55:15,669][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 1 ms
+[2024-05-10 21:55:15,784][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:55:18,105][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:55:19,002][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:55:19,798][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:55:20,395][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-6][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:55:20,909][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-7][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:55:31,425][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: Merchant(id=59d00c5b-a742-43e0-b02a-5b30104f7503, name=thamyis, location=sampang, open=true)
+[2024-05-10 21:55:34,554][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-9][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 21:55:50,960][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: Merchant(id=7a9f51e3-6aa7-4256-8618-e700cac9d623, name=robin, location=sampang, open=false)
+[2024-05-10 21:55:53,722][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 21:57:11,084][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 21:57:51,668][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Merchant(id=59d00c5b-a742-43e0-b02a-5b30104f7503, name=el-mayo, location=mexico, open=false)
+[2024-05-10 21:57:57,017][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-6][17]Success response: Page 1 of 0 containing UNKNOWN instances
+[2024-05-10 21:58:08,980][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-7][17]Success response: Merchant(id=59d00c5b-a742-43e0-b02a-5b30104f7503, name=null, location=null, open=true)
+[2024-05-10 21:58:16,847][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 21:58:31,243][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-9][17]Success response: Merchant(id=59d00c5b-a742-43e0-b02a-5b30104f7503, name=el-mayo, location=mexico, open=true)
+[2024-05-10 21:58:34,474][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 21:59:41,242][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][17]Success response: [Product(id=787c5ee9-200d-4337-88a0-315a4f178ca6, name=bakso, price=15000.0, merchant_id=null), Product(id=0c19b271-b03a-4e3a-b972-6e4b76ec0629, name=mie ayam, price=10000.0, merchant_id=null)]
+[2024-05-10 22:00:36,922][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-4][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.UserController.deleteProduct(synrgy7thapmoch4.Entity.Product)]
+[2024-05-10 22:00:40,617][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-5][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-05-10 22:00:57,208][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-7][247]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-05-10 22:01:01,238][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-8][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.UserController.deleteProduct(synrgy7thapmoch4.Entity.Product)]
+[2024-05-10 22:01:08,376][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][26]Error response: code=402, message=Id is required.
+[2024-05-10 22:01:44,387][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-2][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.UserController.updateProduct(synrgy7thapmoch4.Entity.Product)]
+[2024-05-10 22:01:52,764][WARN ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][35]Null object detected.
+[2024-05-10 22:01:52,765][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][26]Error response: code=402, message=Id is required.
+[2024-05-10 22:10:08,769][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 22:10:08,771][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 22:10:08,803][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 22:10:12,858][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 24764 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 22:10:12,860][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 22:10:13,596][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 22:10:13,688][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 84 ms. Found 5 JPA repository interfaces.
+[2024-05-10 22:10:14,306][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 22:10:14,318][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 22:10:14,320][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 22:10:14,320][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 22:10:14,408][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 22:10:14,408][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1503 ms
+[2024-05-10 22:10:14,697][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 22:10:14,790][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 22:10:14,829][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 22:10:15,055][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 22:10:15,086][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 22:10:15,273][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ff498b0
+[2024-05-10 22:10:15,274][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 22:10:16,243][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 22:10:16,347][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 22:10:16,673][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 22:10:17,449][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 22:10:18,055][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 22:10:18,094][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 22:10:18,105][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.76 seconds (process running for 6.304)
+[2024-05-10 22:10:18,115][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 22:10:18,116][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 22:10:18,117][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 22:10:18,117][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 22:10:24,240][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 22:10:24,242][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 22:10:24,243][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-2][554]Completed initialization in 1 ms
+[2024-05-10 22:10:24,351][WARN ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][35]Null object detected.
+[2024-05-10 22:10:24,353][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][26]Error response: code=402, message=Name is required.
+[2024-05-10 22:10:36,432][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][17]Success response: User(id=2801af54-3fba-438b-b6dc-507549c13b73, username=robin, email=null, password=null)
+[2024-05-10 22:11:13,070][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: User(id=049653c2-dde8-4041-ad76-005e51e915ce, username=robin, email=robinbro@gmail.com, password=false)
+[2024-05-10 22:11:16,039][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: User(id=8e0251c3-8081-4070-9b48-5adaf3bf9718, username=robin, email=robinbro@gmail.com, password=false)
+[2024-05-10 22:11:27,629][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-6][26]Error response: code=402, message=Id is required.
+[2024-05-10 22:11:39,195][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-7][26]Error response: code=402, message=Id is required.
+[2024-05-10 22:11:56,938][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: user deleted successfully.
+[2024-05-10 22:12:20,139][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-9][17]Success response: [User(id=2801af54-3fba-438b-b6dc-507549c13b73, username=robin, email=null, password=null), User(id=049653c2-dde8-4041-ad76-005e51e915ce, username=robin, email=robinbro@gmail.com, password=false)]
+[2024-05-10 22:12:48,074][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: [User(id=2801af54-3fba-438b-b6dc-507549c13b73, username=robin, email=null, password=null), User(id=049653c2-dde8-4041-ad76-005e51e915ce, username=robin, email=robinbro@gmail.com, password=false)]
+[2024-05-10 22:13:07,670][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: User(id=2801af54-3fba-438b-b6dc-507549c13b73, username=robin, email=null, password=null)
+[2024-05-10 22:15:08,182][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-4][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.OrderController.placeOrder(synrgy7thapmoch4.Entity.Order)]
+[2024-05-10 22:15:16,964][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Order(id=8c2dcc48-d7b3-4aee-9028-d84c6917d1d6, order_time=null, destination_address=null, user_id=null, completed=false)
+[2024-05-10 22:15:50,286][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-7][17]Success response: [Order(id=8c2dcc48-d7b3-4aee-9028-d84c6917d1d6, order_time=null, destination_address=null, user_id=null, completed=false)]
+[2024-05-10 22:17:54,660][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Employee instances
+[2024-05-10 22:17:54,660][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: {data=Page 1 of 1 containing synrgy7thapmoch4.Entity.Employee instances, message=Success, status=200}
+[2024-05-10 22:18:35,222][WARN ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][35]Null object detected.
+[2024-05-10 22:18:35,223][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][26]Error response: code=402, message=Name is required.
+[2024-05-10 22:18:35,223][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: {message=Name is required., status=402}
+[2024-05-10 22:19:00,652][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: Employee(id=2, name=sabili, address=null, dob=null, status=active, DetailEmployee=null)
+[2024-05-10 22:19:00,653][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: {data=Employee(id=2, name=sabili, address=null, dob=null, status=active, DetailEmployee=null), message=Success, status=200}
+[2024-05-10 22:20:48,786][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: Order(id=50916e3a-6463-49df-86f3-bf2d3b505d4e, order_time=null, destination_address=null, user_id=null, completed=false)
+[2024-05-10 22:23:09,012][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 22:23:09,016][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 22:23:09,032][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 22:23:15,142][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 6656 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 22:23:15,144][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 22:23:15,875][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 22:23:15,966][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 83 ms. Found 5 JPA repository interfaces.
+[2024-05-10 22:23:16,570][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 22:23:16,580][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 22:23:16,582][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 22:23:16,582][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 22:23:16,703][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 22:23:16,704][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1518 ms
+[2024-05-10 22:23:16,999][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 22:23:17,087][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 22:23:17,129][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 22:23:17,344][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 22:23:17,374][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 22:23:17,550][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4afd65fd
+[2024-05-10 22:23:17,553][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 22:23:18,566][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 22:23:18,674][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 22:23:19,041][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 22:23:19,902][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 22:23:20,414][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 22:23:20,452][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 22:23:20,463][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.853 seconds (process running for 6.399)
+[2024-05-10 22:23:20,469][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 22:23:20,470][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 22:23:20,470][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 22:23:20,471][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 22:23:24,416][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 22:23:24,417][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 22:23:24,418][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 1 ms
+[2024-05-10 22:23:24,606][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: Order(id=20021502-c375-401b-b86d-a46d6474131c, order_time=2024-05-10 22:23:24.585884, destination_address=null, user_id=null, completed=false)
+[2024-05-10 22:23:34,263][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][17]Success response: Order(id=0cb5ee6e-c89e-4deb-9885-a5bdf5098ef9, order_time=2024-05-10 22:23:34.236821, destination_address=null, user_id=null, completed=false)
+[2024-05-10 22:23:46,431][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-4][17]Success response: [Order(id=8c2dcc48-d7b3-4aee-9028-d84c6917d1d6, order_time=null, destination_address=null, user_id=null, completed=false), Order(id=50916e3a-6463-49df-86f3-bf2d3b505d4e, order_time=null, destination_address=null, user_id=null, completed=false), Order(id=20021502-c375-401b-b86d-a46d6474131c, order_time=2024-05-10 22:23:24.585884, destination_address=null, user_id=null, completed=false), Order(id=0cb5ee6e-c89e-4deb-9885-a5bdf5098ef9, order_time=2024-05-10 22:23:34.236821, destination_address=null, user_id=null, completed=false)]
+[2024-05-10 22:25:14,379][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8080-exec-7][247]Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.Map> synrgy7thapmoch4.Controller.EmployeeController.saveEmployee(synrgy7thapmoch4.Entity.Employee)]
+[2024-05-10 22:25:20,729][WARN ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][35]Null object detected.
+[2024-05-10 22:25:20,730][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][26]Error response: code=402, message=Name is required.
+[2024-05-10 22:25:20,730][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: {message=Name is required., status=402}
+[2024-05-10 22:25:35,872][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: Employee(id=3, name=sabili, address=null, dob=null, status=active, DetailEmployee=null)
+[2024-05-10 22:25:35,874][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-10][17]Success response: {data=Employee(id=3, name=sabili, address=null, dob=null, status=active, DetailEmployee=null), message=Success, status=200}
+[2024-05-10 22:25:41,680][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: Employee(id=4, name=sabili, address=null, dob=null, status=active, DetailEmployee=null)
+[2024-05-10 22:25:41,680][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][17]Success response: {data=Employee(id=4, name=sabili, address=null, dob=null, status=active, DetailEmployee=null), message=Success, status=200}
+[2024-05-10 22:25:51,044][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: Employee(id=5, name=sabili, address=null, dob=null, status=active, DetailEmployee=null)
+[2024-05-10 22:25:51,045][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: {data=Employee(id=5, name=sabili, address=null, dob=null, status=active, DetailEmployee=null), message=Success, status=200}
+[2024-05-10 22:26:56,967][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Employee(id=6, name=sabili, address=null, dob=null, status=active, DetailEmployee=null)
+[2024-05-10 22:26:56,967][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: {data=Employee(id=6, name=sabili, address=null, dob=null, status=active, DetailEmployee=null), message=Success, status=200}
+[2024-05-10 22:27:07,341][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-6][17]Success response: Employee(id=7, name=sabili, address=null, dob=null, status=active, DetailEmployee=null)
+[2024-05-10 22:27:07,342][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-6][17]Success response: {data=Employee(id=7, name=sabili, address=null, dob=null, status=active, DetailEmployee=null), message=Success, status=200}
+[2024-05-10 22:37:14,411][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 22:37:14,412][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 22:37:14,415][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-10 22:50:50,239][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Application using Java 21 with PID 26388 (C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5\target\classes started by Lln_Sln_Scn in C:\Users\canis\IdeaProjects\challange\24001114-synrgy7-tha-pmo-ch5)
+[2024-05-10 22:50:50,241][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-10 22:50:51,058][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-10 22:50:51,157][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+[2024-05-10 22:50:51,764][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8080 (http)
+[2024-05-10 22:50:51,776][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
+[2024-05-10 22:50:51,779][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-10 22:50:51,779][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-10 22:50:51,852][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-10 22:50:51,853][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1562 ms
+[2024-05-10 22:50:52,205][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-10 22:50:52,325][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-10 22:50:52,373][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-10 22:50:52,607][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-10 22:50:52,638][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-10 22:50:52,833][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55951fcd
+[2024-05-10 22:50:52,835][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-10 22:50:53,849][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-10 22:50:53,957][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 22:50:54,234][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-10 22:50:55,092][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-10 22:50:55,602][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
+[2024-05-10 22:50:55,638][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8080 (http) with context path ''
+[2024-05-10 22:50:55,649][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Application in 5.906 seconds (process running for 6.413)
+[2024-05-10 22:50:55,658][INFO ][synrgy7thapmoch4.Application][main][15]info logging level
+[2024-05-10 22:50:55,659][ERROR][synrgy7thapmoch4.Application][main][16]error logging level
+[2024-05-10 22:50:55,659][WARN ][synrgy7thapmoch4.Application][main][17]warning logging level
+[2024-05-10 22:50:55,659][ERROR][synrgy7thapmoch4.Application][main][20]Error processing request
+[2024-05-10 22:51:08,273][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-10 22:51:08,274][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-10 22:51:08,275][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8080-exec-1][554]Completed initialization in 1 ms
+[2024-05-10 22:51:08,420][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: Page 1 of 1 containing synrgy7thapmoch4.Entity.Merchant instances
+[2024-05-10 22:55:58,129][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-5][17]Success response: Merchant(id=7e200028-dc04-411a-be7e-af2aa1d18f24, name=robin, location=sampang, open=false)
+[2024-05-10 22:58:35,162][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-8][17]Success response: Merchant(id=59d00c5b-a742-43e0-b02a-5b30104f7503, name=el-mayo, location=mexico, open=true)
+[2024-05-10 23:05:02,160][ERROR][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-2][26]Error response: code=402, message=Id is required.
+[2024-05-10 23:05:13,307][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-1][17]Success response: Merchant(id=59d00c5b-a742-43e0-b02a-5b30104f7503, name=el-mayo, location=mexico, open=true)
+[2024-05-10 23:05:50,473][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-3][17]Success response: Merchant deleted successfully.
+[2024-05-10 23:08:26,233][INFO ][synrgy7thapmoch4.utils.Response][http-nio-8080-exec-6][17]Success response: Merchant(id=859a36b5-ebad-49d6-8dc8-eef8c9afabb0, name=robin, location=sampang, open=false)
+[2024-05-10 23:10:43,889][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-10 23:10:43,890][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-10 23:10:43,894][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.

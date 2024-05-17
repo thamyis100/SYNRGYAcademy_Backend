@@ -3,17 +3,16 @@ package synrgy7thapmoch4.Services;
 
 import synrgy7thapmoch4.Entity.User;
 
+import java.util.Map;
+import java.util.UUID;
+
 public interface UserService {
 
-    // Method untuk membuat user baru
-    void createUser(Long userId, String userName, String userEmail);
+    Map save(User request);
+    Map edit(User request);
+    Map delete(User request);
 
-    // Method untuk membaca informasi user berdasarkan ID
-    User readUser(Long userId);
+    Map listAllUser();
 
-    // Method untuk memperbarui informasi user
-    void updateUser(Long userId, String userName, String userEmail);
-
-    // Method untuk menghapus user berdasarkan ID
-    void deleteUser(Long userId);
+    User readUser(UUID id);
 }

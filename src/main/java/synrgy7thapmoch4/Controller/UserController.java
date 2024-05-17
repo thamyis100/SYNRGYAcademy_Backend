@@ -7,44 +7,42 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import synrgy7thapmoch4.Entity.User;
 import synrgy7thapmoch4.Services.UserService;
-import synrgy7thapmoch4.utils.Response;
 
 import java.util.Map;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/v1/user")
 public class UserController {
-
     @Autowired
     private UserService userService;
-    @Autowired
-    private Response response;
 
     @PostMapping(value = {"/save", "/save/"})
-    public ResponseEntity<Map> createUser(@RequestParam Long userId, @RequestParam String userName, @RequestParam String userEmail) {
-        userService.createUser(userId, userName, userEmail);
-        return new ResponseEntity<>(response.sukses("User created successfully."), HttpStatus.CREATED);
+    public ResponseEntity<Map> saveUser(@RequestBody User request) {
+        return new ResponseEntity<>(userService.save(request), HttpStatus.OK);
     }
 
-    @GetMapping(value = {"/{userId}", "/{userId}/"})
-    public ResponseEntity<Map> getUser(@PathVariable Long userId) {
-        User user = userService.readUser(userId);
-        if (user != null) {
-            return new ResponseEntity<>(response.sukses(user), HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(response.error("User not found.", 404), HttpStatus.NOT_FOUND);
-        }
-    }
-
-    @PutMapping(value = {"/updata", "/update/"})
-    public ResponseEntity<Map> updateUser(@PathVariable Long userId, @RequestParam String userName, @RequestParam String userEmail) {
-        userService.updateUser(userId, userName, userEmail);
-        return new ResponseEntity<>(response.sukses("User updated successfully."), HttpStatus.OK);
+    @PutMapping(value = {"/update", "/update/"})
+    public ResponseEntity<Map> updateUser(@RequestBody User request) {
+        return new ResponseEntity<>(userService.edit(request), HttpStatus.OK);
     }
 
     @DeleteMapping(value = {"/deleted", "/deleted/"})
-    public ResponseEntity<Map> deleteUser(@PathVariable Long userId) {
-        userService.deleteUser(userId);
-        return new ResponseEntity<>(response.sukses("User deleted successfully."), HttpStatus.OK);
+    public ResponseEntity<Map> deleteUser(@RequestBody User request) {
+        return new ResponseEntity<>(userService.delete(request), HttpStatus.OK);
+    }
+
+    @DeleteMapping(value = {"/deleted/{id}", "/deleted/{id}"})
+    public ResponseEntity<Map> deleteUserById(@PathVariable UUID id) {
+        //validate notnull
+        User emp=  new User();
+        emp.setId(id);
+        return new ResponseEntity<>(userService.delete(emp), HttpStatus.OK);
+    }
+
+    @GetMapping("/list")
+    public ResponseEntity<Map> listAllUsers() {
+        Map result = userService.listAllUser();
+        return new ResponseEntity<>(result, HttpStatus.OK);
     }
 }

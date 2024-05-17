@@ -13,6 +13,7 @@ import synrgy7thapmoch4.utils.Response;
 
 import java.util.Map;
 import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class MerchantServiceImpl implements MerchantService {
@@ -83,5 +84,11 @@ public class MerchantServiceImpl implements MerchantService {
         Pageable pageable = PageRequest.of(page, size);
         Page<Merchant> openMerchants = MerchantRepository.findByOpen(true, pageable);
         return response.sukses(openMerchants);
+    }
+
+    @Override
+    public Merchant readmerchant(UUID id) {
+        Optional<Merchant> merchantOptional = MerchantRepository.findById(id);
+        return merchantOptional.orElse(null);
     }
 }

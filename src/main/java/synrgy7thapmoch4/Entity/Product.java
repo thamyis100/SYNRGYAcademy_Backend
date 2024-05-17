@@ -2,7 +2,6 @@ package synrgy7thapmoch4.Entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.annotations.Where;
 
 import java.util.UUID;
 

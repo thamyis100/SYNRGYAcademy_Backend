@@ -6,10 +6,12 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.jpa.repository.query.Procedure;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
-import synrgy7thapmoch4.Entity.Employee;
 import synrgy7thapmoch4.Entity.User;
 
-public interface UserRepository extends JpaRepository<Employee, Long>, JpaSpecificationExecutor<Employee> {
+import java.util.Optional;
+import java.util.UUID;
+
+public interface UserRepository extends JpaRepository<User, Long>, JpaSpecificationExecutor<User> {
 
     //store procedure
     @Procedure("create_user")
@@ -38,4 +40,6 @@ public interface UserRepository extends JpaRepository<Employee, Long>, JpaSpecif
     // Custom query method to find a user by email
     @Query("SELECT u FROM User u WHERE u.email = :email")
     User findByEmail(@Param("email") String email);
+
+    Optional<User> findById(UUID id);
 }
