@@ -1,16 +1,21 @@
 package synrgy7thapmoch1.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.ObjectPostProcessor;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer;
+import org.springframework.security.web.access.intercept.FilterSecurityInterceptor;
 
 @Configuration
 @EnableResourceServer
 @EnableGlobalMethodSecurity(securedEnabled = true) //secure definition
 public class Oauth2ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
+    @Autowired
+    private CustomFilterInvocationSecurityMetadataSource securityMetadataSource;
 
     /**
      * Manage resource server.
@@ -46,5 +51,14 @@ public class Oauth2ResourceServerConfiguration extends ResourceServerConfigurerA
                 .formLogin()
                 .permitAll()
         ;
+    }
+    private ObjectPostProcessor<FilterSecurityInterceptor> objectPostProcessor() {
+        return new ObjectPostProcessor<FilterSecurityInterceptor>() {
+            @Override
+            public <O extends FilterSecurityInterceptor> O postProcess(O fsi) {
+                fsi.setSecurityMetadataSource(securityMetadataSource);
+                return fsi;
+            }
+        };
     }
 }

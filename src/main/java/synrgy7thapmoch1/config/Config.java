@@ -1,5 +1,6 @@
 package synrgy7thapmoch1.config;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
 import java.text.DateFormat;
@@ -7,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.regex.Pattern;
 
+@Data
 @Component
 public class Config {
 
@@ -34,6 +36,9 @@ public class Config {
         return pat.matcher(email).matches();
     }
 
+    public  String code ="status";
+
+    public  String message= "message";
 }
 
 

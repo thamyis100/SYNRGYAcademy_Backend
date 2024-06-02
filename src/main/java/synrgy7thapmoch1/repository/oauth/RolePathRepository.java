@@ -2,13 +2,14 @@ package synrgy7thapmoch1.repository.oauth;
 
 
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import synrgy7thapmoch1.entity.oauth.RolePath;
 
 import java.util.List;
 
-public interface RolePathRepository extends PagingAndSortingRepository<RolePath, Long> {
+public interface RolePathRepository extends PagingAndSortingRepository<RolePath, Long>, CrudRepository<RolePath, Long> {
     RolePath findOneByName(String rolePathName);
 
     @Query(value = "SELECT p.* FROM oauth_role_path p " +
