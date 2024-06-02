@@ -1,13 +1,14 @@
 package synrgy7thapmoch1.config;
 
-import com.example.challenge6.repository.oauth.UserRepository;
-import com.example.challenge6.service.oauth.Oauth2UserDetailsService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.DefaultAccessTokenConverter;
 import org.springframework.stereotype.Component;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
+import synrgy7thapmoch1.service.oauth.Oauth2UserDetailsService;
 
 import java.util.Collection;
 import java.util.Map;

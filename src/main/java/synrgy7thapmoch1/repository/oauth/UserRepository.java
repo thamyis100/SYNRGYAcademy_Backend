@@ -1,8 +1,9 @@
 package synrgy7thapmoch1.repository.oauth;
 
-import com.example.challenge6.entity.oauth.User;
+
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
+import synrgy7thapmoch1.entity.oauth.User;
 
 public interface UserRepository extends PagingAndSortingRepository<User, Long> {
     @Query("FROM User u WHERE LOWER(u.username) = LOWER(?1)")

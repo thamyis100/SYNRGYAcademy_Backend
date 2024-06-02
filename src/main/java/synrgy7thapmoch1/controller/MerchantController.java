@@ -1,11 +1,12 @@
 package synrgy7thapmoch1.controller;
 
-import com.example.challenge6.entity.Merchant;
-import com.example.challenge6.service.MerchantService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import synrgy7thapmoch1.entity.Merchant;
+import synrgy7thapmoch1.service.MerchantService;
 
 import java.util.Map;
 import java.util.UUID;

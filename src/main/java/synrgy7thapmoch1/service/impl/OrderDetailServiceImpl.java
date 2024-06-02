@@ -1,15 +1,16 @@
 package synrgy7thapmoch1.service.impl;
 
-import com.example.challenge6.entity.Order;
-import com.example.challenge6.entity.OrderDetail;
-import com.example.challenge6.entity.Product;
-import com.example.challenge6.repository.OrderDetailRepository;
-import com.example.challenge6.repository.OrderRepository;
-import com.example.challenge6.repository.ProductRepository;
-import com.example.challenge6.service.OrderDetailService;
-import com.example.challenge6.utils.Response;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import synrgy7thapmoch1.entity.Order;
+import synrgy7thapmoch1.entity.OrderDetail;
+import synrgy7thapmoch1.entity.Product;
+import synrgy7thapmoch1.repository.OrderDetailRepository;
+import synrgy7thapmoch1.repository.OrderRepository;
+import synrgy7thapmoch1.repository.ProductRepository;
+import synrgy7thapmoch1.service.OrderDetailService;
+import synrgy7thapmoch1.utils.Response;
 
 import java.util.Map;
 import java.util.Optional;

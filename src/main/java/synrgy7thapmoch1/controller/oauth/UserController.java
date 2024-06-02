@@ -1,14 +1,15 @@
 package synrgy7thapmoch1.controller.oauth;
 
-import com.example.challenge6.repository.oauth.UserRepository;
-import com.example.challenge6.service.oauth.Oauth2UserDetailsService;
-import com.example.challenge6.service.oauth.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
+import synrgy7thapmoch1.service.oauth.Oauth2UserDetailsService;
+import synrgy7thapmoch1.service.oauth.UserService;
 
 import java.security.Principal;
 import java.util.Map;

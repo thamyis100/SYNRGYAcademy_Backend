@@ -28,7 +28,7 @@ public class FileStorageService {
     String strDate = formatter.format(date);
 
     @Autowired
-    public FileStorageService(com.example.challenge6.controller.fileupload.FileStorageProperties fileStorageProperties) {
+    public FileStorageService(synrgy7thapmoch1.controller.fileupload.FileStorageProperties fileStorageProperties) {
         this.fileStorageLocation = Paths.get(fileStorageProperties.getUploadDir())
                 .toAbsolutePath().normalize();
 

@@ -1,13 +1,14 @@
 package synrgy7thapmoch1.testing;
 
-import com.example.challenge6.entity.Product;
-import com.example.challenge6.service.ProductService;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import synrgy7thapmoch1.entity.Product;
+import synrgy7thapmoch1.service.ProductService;
 
 import java.util.Map;
 import java.util.UUID;

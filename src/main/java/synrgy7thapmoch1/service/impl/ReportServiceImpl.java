@@ -1,12 +1,13 @@
 package synrgy7thapmoch1.service.impl;
 
-import com.example.challenge6.entity.OrderDetail;
-import com.example.challenge6.repository.OrderDetailRepository;
-import com.example.challenge6.service.ReportService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import synrgy7thapmoch1.entity.OrderDetail;
+import synrgy7thapmoch1.repository.OrderDetailRepository;
+import synrgy7thapmoch1.service.ReportService;
 
 import java.util.List;
 import java.util.stream.Collectors;

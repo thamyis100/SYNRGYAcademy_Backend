@@ -1,12 +1,13 @@
 package synrgy7thapmoch1.sp;
 
-import com.example.challenge6.repository.UserRepositoryOld;
+
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
+import synrgy7thapmoch1.repository.UserRepositoryOld;
 
 import javax.sql.DataSource;
 

@@ -1,7 +1,6 @@
 package synrgy7thapmoch1.testing;
 
-import com.example.challenge6.entity.UserOld;
-import com.example.challenge6.service.impl.ServiceImplUser;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Assert;
@@ -14,6 +13,8 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
+import synrgy7thapmoch1.entity.UserOld;
+import synrgy7thapmoch1.service.impl.ServiceImplUser;
 
 import java.util.Map;
 import java.util.UUID;

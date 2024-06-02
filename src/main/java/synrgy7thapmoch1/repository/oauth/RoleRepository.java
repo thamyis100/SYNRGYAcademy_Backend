@@ -1,7 +1,8 @@
 package synrgy7thapmoch1.repository.oauth;
 
-import com.example.challenge6.entity.oauth.Role;
+
 import org.springframework.data.repository.PagingAndSortingRepository;
+import synrgy7thapmoch1.entity.oauth.Role;
 
 import java.util.List;
 

@@ -1,13 +1,6 @@
 package synrgy7thapmoch1.service.oauth;
 
-import com.example.challenge6.entity.oauth.Client;
-import com.example.challenge6.entity.oauth.Role;
-import com.example.challenge6.entity.oauth.RolePath;
-import com.example.challenge6.entity.oauth.User;
-import com.example.challenge6.repository.oauth.ClientRepository;
-import com.example.challenge6.repository.oauth.RolePathRepository;
-import com.example.challenge6.repository.oauth.RoleRepository;
-import com.example.challenge6.repository.oauth.UserRepository;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +9,14 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+import synrgy7thapmoch1.entity.oauth.Client;
+import synrgy7thapmoch1.entity.oauth.Role;
+import synrgy7thapmoch1.entity.oauth.RolePath;
+import synrgy7thapmoch1.entity.oauth.User;
+import synrgy7thapmoch1.repository.oauth.ClientRepository;
+import synrgy7thapmoch1.repository.oauth.RolePathRepository;
+import synrgy7thapmoch1.repository.oauth.RoleRepository;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
 
 import javax.transaction.Transactional;
 import java.util.ArrayList;

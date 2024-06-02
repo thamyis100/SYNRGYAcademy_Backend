@@ -1,9 +1,6 @@
 package synrgy7thapmoch1.controller;
 
-import com.example.challenge6.entity.UserOld;
-import com.example.challenge6.repository.UserRepositoryOld;
-import com.example.challenge6.service.UserServiceOld;
-import com.example.challenge6.utils.Response;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +10,10 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
+import synrgy7thapmoch1.entity.UserOld;
+import synrgy7thapmoch1.repository.UserRepositoryOld;
+import synrgy7thapmoch1.service.UserServiceOld;
+import synrgy7thapmoch1.utils.Response;
 
 import javax.persistence.criteria.Predicate;
 import java.util.ArrayList;

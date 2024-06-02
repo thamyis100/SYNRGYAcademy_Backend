@@ -1,14 +1,6 @@
 package synrgy7thapmoch1.controller.oauth;
 
-import com.example.challenge6.config.Config;
-import com.example.challenge6.entity.oauth.ResetPasswordModel;
-import com.example.challenge6.entity.oauth.User;
-import com.example.challenge6.repository.oauth.UserRepository;
-import com.example.challenge6.service.email.EmailSender;
-import com.example.challenge6.service.oauth.UserService;
-import com.example.challenge6.utils.EmailTemplate;
-import com.example.challenge6.utils.Response;
-import com.example.challenge6.utils.SimpleStringUtils;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -17,6 +9,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import synrgy7thapmoch1.config.Config;
+import synrgy7thapmoch1.entity.oauth.ResetPasswordModel;
+import synrgy7thapmoch1.entity.oauth.User;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
+import synrgy7thapmoch1.service.email.EmailSender;
+import synrgy7thapmoch1.service.oauth.UserService;
+import synrgy7thapmoch1.utils.EmailTemplate;
+import synrgy7thapmoch1.utils.Response;
+import synrgy7thapmoch1.utils.SimpleStringUtils;
 
 import java.util.Calendar;
 import java.util.Date;

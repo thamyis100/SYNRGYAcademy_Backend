@@ -1,9 +1,6 @@
 package synrgy7thapmoch1.utils.itext;
 
-import com.example.challenge6.entity.UserOld;
-import com.example.challenge6.repository.UserRepositoryOld;
-import com.example.challenge6.service.UserServiceOld;
-import com.example.challenge6.service.impl.ServiceImplUser;
+
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
@@ -13,6 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
+import synrgy7thapmoch1.entity.UserOld;
+import synrgy7thapmoch1.repository.UserRepositoryOld;
+import synrgy7thapmoch1.service.UserServiceOld;
+import synrgy7thapmoch1.service.impl.ServiceImplUser;
 
 import java.util.List;
 

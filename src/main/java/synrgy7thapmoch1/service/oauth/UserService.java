@@ -1,7 +1,8 @@
 package synrgy7thapmoch1.service.oauth;
 
-import com.example.challenge6.dao.req.LoginModel;
-import com.example.challenge6.dto.req.RegisterModel;
+
+import synrgy7thapmoch1.req.LoginModel;
+import synrgy7thapmoch1.req.RegisterModel;
 
 import java.security.Principal;
 import java.util.Map;

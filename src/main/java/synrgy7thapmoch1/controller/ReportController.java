@@ -1,8 +1,7 @@
 package synrgy7thapmoch1.controller;
 
 
-import com.example.challenge6.entity.OrderDetail;
-import com.example.challenge6.service.ReportService;
+
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import org.slf4j.Logger;
@@ -13,6 +12,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import synrgy7thapmoch1.entity.OrderDetail;
+import synrgy7thapmoch1.service.ReportService;
 
 import java.io.InputStream;
 import java.util.HashMap;

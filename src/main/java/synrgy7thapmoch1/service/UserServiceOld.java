@@ -1,6 +1,8 @@
 package synrgy7thapmoch1.service;
 
-import com.example.challenge6.entity.UserOld;
+
+
+import synrgy7thapmoch1.entity.UserOld;
 
 import java.util.Map;
 import java.util.UUID;

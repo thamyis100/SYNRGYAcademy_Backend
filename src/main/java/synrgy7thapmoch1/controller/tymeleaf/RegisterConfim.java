@@ -1,14 +1,15 @@
 package synrgy7thapmoch1.controller.tymeleaf;
 
-import com.example.challenge6.config.Config;
-import com.example.challenge6.entity.oauth.User;
-import com.example.challenge6.repository.oauth.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import synrgy7thapmoch1.config.Config;
+import synrgy7thapmoch1.entity.oauth.User;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
 
 import java.security.Principal;
 import java.text.DateFormat;

@@ -1,7 +1,8 @@
 package synrgy7thapmoch1.repository.oauth;
 
-import com.example.challenge6.entity.oauth.Client;
+
 import org.springframework.data.repository.PagingAndSortingRepository;
+import synrgy7thapmoch1.entity.oauth.Client;
 
 public interface ClientRepository extends PagingAndSortingRepository<Client, Long> {
 

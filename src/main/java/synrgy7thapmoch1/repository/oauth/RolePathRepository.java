@@ -1,9 +1,10 @@
 package synrgy7thapmoch1.repository.oauth;
 
-import com.example.challenge6.entity.oauth.RolePath;
+
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.security.core.userdetails.UserDetails;
+import synrgy7thapmoch1.entity.oauth.RolePath;
 
 import java.util.List;
 

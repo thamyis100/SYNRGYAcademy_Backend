@@ -1,15 +1,6 @@
 package synrgy7thapmoch1.service.oauth.impl;
 
-import com.example.challenge6.config.Config;
-import com.example.challenge6.dao.req.LoginModel;
-import com.example.challenge6.dto.req.RegisterModel;
-import com.example.challenge6.entity.oauth.Role;
-import com.example.challenge6.entity.oauth.User;
-import com.example.challenge6.repository.oauth.RoleRepository;
-import com.example.challenge6.repository.oauth.UserRepository;
-import com.example.challenge6.service.oauth.Oauth2UserDetailsService;
-import com.example.challenge6.service.oauth.UserService;
-import com.example.challenge6.utils.Response;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +16,16 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.client.HttpStatusCodeException;
+import synrgy7thapmoch1.config.Config;
+import synrgy7thapmoch1.entity.oauth.Role;
+import synrgy7thapmoch1.entity.oauth.User;
+import synrgy7thapmoch1.repository.oauth.RoleRepository;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
+import synrgy7thapmoch1.req.LoginModel;
+import synrgy7thapmoch1.req.RegisterModel;
+import synrgy7thapmoch1.service.oauth.Oauth2UserDetailsService;
+import synrgy7thapmoch1.service.oauth.UserService;
+import synrgy7thapmoch1.utils.Response;
 
 import java.security.Principal;
 import java.util.ArrayList;

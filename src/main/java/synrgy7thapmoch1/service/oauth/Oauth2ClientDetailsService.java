@@ -1,12 +1,13 @@
 package synrgy7thapmoch1.service.oauth;
 
-import com.example.challenge6.repository.oauth.ClientRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.security.oauth2.provider.ClientDetails;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
 import org.springframework.security.oauth2.provider.ClientRegistrationException;
 import org.springframework.stereotype.Service;
+import synrgy7thapmoch1.repository.oauth.ClientRepository;
 
 @Service
 public class Oauth2ClientDetailsService implements ClientDetailsService {

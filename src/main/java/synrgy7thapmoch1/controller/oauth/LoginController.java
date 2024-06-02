@@ -1,14 +1,15 @@
 package synrgy7thapmoch1.controller.oauth;
 
-import com.example.challenge6.config.Config;
-import com.example.challenge6.dao.req.LoginModel;
-import com.example.challenge6.repository.oauth.UserRepository;
-import com.example.challenge6.service.oauth.UserService;
-import com.example.challenge6.utils.Response;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import synrgy7thapmoch1.config.Config;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
+import synrgy7thapmoch1.req.LoginModel;
+import synrgy7thapmoch1.service.oauth.UserService;
+import synrgy7thapmoch1.utils.Response;
 
 import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;

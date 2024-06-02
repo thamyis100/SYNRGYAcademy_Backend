@@ -1,13 +1,14 @@
 package synrgy7thapmoch1.testing;
 
-import com.example.challenge6.entity.Order;
-import com.example.challenge6.service.impl.ServiceImplOrder;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import synrgy7thapmoch1.entity.Order;
+import synrgy7thapmoch1.service.impl.ServiceImplOrder;
 
 import java.util.Date;
 import java.util.Map;

@@ -1,20 +1,21 @@
 package synrgy7thapmoch1.controller.oauth;
 
-import com.example.challenge6.config.Config;
-import com.example.challenge6.dto.req.RegisterModel;
-import com.example.challenge6.entity.oauth.User;
-import com.example.challenge6.repository.oauth.UserRepository;
-import com.example.challenge6.service.email.EmailSender;
-import com.example.challenge6.service.oauth.UserService;
-import com.example.challenge6.utils.EmailTemplate;
-import com.example.challenge6.utils.Response;
-import com.example.challenge6.utils.SimpleStringUtils;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
+import synrgy7thapmoch1.config.Config;
+import synrgy7thapmoch1.entity.oauth.User;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
+import synrgy7thapmoch1.req.RegisterModel;
+import synrgy7thapmoch1.service.email.EmailSender;
+import synrgy7thapmoch1.service.oauth.UserService;
+import synrgy7thapmoch1.utils.EmailTemplate;
+import synrgy7thapmoch1.utils.Response;
+import synrgy7thapmoch1.utils.SimpleStringUtils;
 
 import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;

@@ -1,13 +1,14 @@
 package synrgy7thapmoch1.service.oauth;
 
-import com.example.challenge6.entity.oauth.User;
-import com.example.challenge6.repository.oauth.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+import synrgy7thapmoch1.entity.oauth.User;
+import synrgy7thapmoch1.repository.oauth.UserRepository;
 
 @Service
 public class Oauth2UserDetailsService implements UserDetailsService{

@@ -1,9 +1,6 @@
 package synrgy7thapmoch1.service.impl;
 
-import com.example.challenge6.entity.Merchant;
-import com.example.challenge6.repository.MerchantRepository;
-import com.example.challenge6.service.MerchantService;
-import com.example.challenge6.utils.Response;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +8,10 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import synrgy7thapmoch1.entity.Merchant;
+import synrgy7thapmoch1.repository.MerchantRepository;
+import synrgy7thapmoch1.service.MerchantService;
+import synrgy7thapmoch1.utils.Response;
 
 import java.util.Map;
 import java.util.Optional;
