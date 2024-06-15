@@ -1,0 +1,16 @@
+==========================
+BinarFud
+==========================
+Terima kasih sudah memesan di BinarFud
+
+Dibawah ini adalah pesanan anda
+
+------------------------------ +
+Total			62000
+
+Pembayaran: BinarCash
+
+==========================
+Simpan struk ini sebagai
+bukti pembayaran
+==========================
