@@ -47,7 +47,7 @@ public class DatabaseSeeder implements ApplicationRunner {
     private final String[] users = new String[]{
             "admin@mail.com:ROLE_SUPERUSER ROLE_USER ROLE_ADMIN",
             "user@mail.com:ROLE_USER",
-            "abilsabili@gmail.com:ROLE_USER ROLE_READ ROLE_WRITE"
+            "badimtna@gmail.com:ROLE_USER ROLE_READ ROLE_WRITE"
     };
 
     private final String[] clients = new String[]{
