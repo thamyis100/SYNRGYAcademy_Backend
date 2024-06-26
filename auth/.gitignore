@@ -34,3 +34,4 @@ build/
 
 # Ignore Firebase credentials file
 firebase-credentials.json
+src/main/resources/firebase-credentials.json
