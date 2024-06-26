@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class KafkaNotificationService implements IKafkaNotificationService {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
-    private static final String TOPIC = "promo_notifications"; // Kafka topic name
+    private static final String TOPIC = "promo_notifications1"; // Kafka topic name
 
     @Autowired
     public KafkaNotificationService(KafkaTemplate<String, String> kafkaTemplate) {
