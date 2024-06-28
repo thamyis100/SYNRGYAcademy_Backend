@@ -20,7 +20,7 @@ public class PromoNotificationScheduler {
     }
 
     // Scheduled to run every day at 12:00 PM
-    @Scheduled(cron = "0 52 19 * * ?", zone = "Asia/Jakarta")
+    @Scheduled(cron = "0 0 12 * * ?", zone = "Asia/Jakarta")
     public void sendPromoNotification() {
         String promoMessage = "Check out our latest promotions!";
         // Send notification to Kafka

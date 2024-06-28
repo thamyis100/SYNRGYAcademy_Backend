@@ -8,13 +8,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class KafkaProducer {
 
-    private static final String TOPIC= "my_topic";
-
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
 
-    public void writeMessage(String msg){
-        this.kafkaTemplate.send(TOPIC, msg);
+    public void writeMessage(String topic,String msg){
+        this.kafkaTemplate.send(topic, msg);
     }
 
 }
